@@ -1,0 +1,42 @@
+@media (max-width: 684px) {
+  .container {
+    display: block;
+  }
+
+  /* GOALS */
+  .goal-content {
+    margin: 15px;
+  }
+
+  /* SCOPES */
+  .scopes-container {
+    margin: 10px;
+  }
+
+  .scopes-content {
+    display: block;
+  }
+
+  /* TIMELINE */
+  .circle-num {
+    width: 20%;
+    height: 75px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    margin: 10px 0 5px 25px;
+  }
+
+  /* GENERAL STYLE */
+  .goal-container {
+    margin: 10px;
+  }
+
+  .goal-content,
+  .scopes-content,
+  .mem-content,
+  .primary-content,
+  .proj-content {
+    margin: 15px;
+  }
+}

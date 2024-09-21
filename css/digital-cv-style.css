@@ -1,0 +1,152 @@
+.title {
+  color: blue;
+  font-weight: bold;
+  border-bottom: red 1px solid;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.border {
+  border: 10px solid blue;
+}
+
+.icon {
+  align-self: center;
+  justify-self: center;
+  font-size: 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 27% 22%;
+  grid-template-rows: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+/* GOALS */
+.goals-container {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.goal1,
+.goal2,
+.goal3 {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border-bottom: 1px solid grey;
+}
+
+/* SCOPES */
+.scopes-container {
+  margin: auto;
+  width: 95%;
+}
+
+.scopes-content {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin-top: 15px;
+  gap: 100px;
+}
+
+.in-title,
+.out-title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* TEAM */
+.team-container {
+  width: 95%;
+  margin: auto;
+}
+
+/* PRIMARY */
+.primary-container {
+  margin: auto;
+  width: 95%;
+}
+
+.line p {
+  margin: 15px 0;
+}
+
+/* TIMELINE */
+.timeline-container {
+  /* max-width: 90%; */
+  margin: auto;
+}
+
+.circle-num {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  width: 85%;
+  height: 65%;
+  background-color: #6e00e3;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: grid !important;
+  position: relative;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.timeline {
+  width: 100%;
+  height: 98%;
+}
+
+.project-title {
+  margin-top: 15px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 20% 60%;
+}
+
+.proj-content {
+  margin-right: 10px;
+  border-bottom: dotted 1px aqua;
+}
+
+.proj-content div,
+.proj-content p {
+  margin: 10px 0 5px 10px;
+}
+
+/* COLUMN */
+.column1 {
+  display: block;
+}
+
+/* GENERAL CLASS */
+.smaller-title {
+  font-weight: bold;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+/* SAME STYLE */
+.mem,
+.line {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.goals,
+.team {
+  height: 60%;
+}
+
+.scopes,
+.primary {
+  height: 35%;
+}

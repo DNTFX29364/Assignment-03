@@ -1,0 +1,215 @@
+/* import(); */
+
+/* MOBILE */
+@media (max-width: 684px) {
+  #banner {
+    height: 500px;
+  }
+
+  .banner-img {
+    width: 100%;
+    height: 500px;
+  }
+
+  #navbar {
+    padding-left: 50%;
+    padding-right: 50%;
+    justify-self: center;
+  }
+
+  .mobile-height {
+    height: 150px;
+  }
+
+  .nav-container {
+    display: block;
+    height: 350px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: end;
+    border: none;
+  }
+  .nav-element {
+    display: block;
+    border: none;
+    margin: 10px 0;
+  }
+  /* .nav {
+    display: block;
+  } */
+
+  .title {
+    display: none;
+  }
+
+  .target-container {
+    display: inline;
+    /* height: 275px; */
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    /* justify-content: end; */
+  }
+
+  /* căn chỉnh 2 thành phần target và info */
+  .job-target {
+    margin: 0 50px;
+    /* margin: 50px 40px; */
+    justify-items: right;
+    width: 300px;
+  }
+
+  .personal-info {
+    margin: 0 50px;
+    /* margin: 50px 40px; */
+    /* margin-right: 275px; */
+    /* justify-content: left; */
+    width: 300px;
+  }
+
+  .personal-info ul,
+  li {
+    list-style: none;
+    padding: 0 0;
+  }
+
+  /* JOB INFO */
+  #job-info {
+    /* border: solid 5px green; */
+  }
+
+  .job-container {
+    display: inline;
+    /* grid-template-columns: 1fr 27% 1fr; */
+    gap: 50px;
+    /* grid-template-rows: 61% 35%;
+  width: 1150px; */
+    height: 900px;
+    margin-bottom: 50px;
+    justify-content: center;
+    /* align-content: center; */
+    /* border: solid 5px red; */
+  }
+
+  .L-border,
+  .s-border {
+    width: 100%;
+  }
+
+  /* CERTIFICATE */
+  .certificate {
+    background-color: #f7f7f7;
+    /* height: 1000px; */
+    margin-bottom: 25px;
+  }
+
+  .certificate-title {
+    margin-bottom: 25px;
+    margin-left: 50px;
+    padding-top: 30px;
+  }
+
+  .certificate-web {
+    border-bottom: 1px solid red;
+  }
+
+  .CER-container {
+    display: block;
+    grid-template-rows: 50% 50%;
+    margin: 0 50px;
+  }
+
+  .cer-title {
+    margin-bottom: 5px;
+  }
+
+  .grid-border {
+    display: inline-block;
+    grid-template-columns: 0.95fr 1fr;
+    border-bottom: solid 1px red;
+    gap: 10px;
+  }
+
+  .cer-grid {
+    display: inline;
+    grid-template-columns: 40% 60%;
+  }
+
+  /* .cer-title {
+    text-transform: uppercase;
+    font-size: 14px;
+  } */
+
+  .last {
+    margin-bottom: 20px;
+  }
+
+  .PRF {
+    /* grid-row: 1/2; */
+    margin-bottom: 50px;
+    border-left: none;
+  }
+
+  .PRF img {
+    height: 175px;
+    width: 325px;
+    margin-top: 40px;
+  }
+
+  .DBI img {
+    height: 175px;
+    width: 325px;
+  }
+
+  .WEB img {
+    height: 175px;
+    width: 325px;
+    margin-top: 40px;
+  }
+
+  .prf-img {
+    margin-left: 0px;
+  }
+
+  /* PROJECT */
+  .project-container {
+    display: inline;
+    /* grid-template-columns: 1fr 1fr 1fr;   */
+    gap: 50px;
+    margin: 0 100px;
+    height: 1fr;
+    margin-bottom: 50px;
+  }
+
+  .time-proj {
+    display: block;
+  }
+
+  .cv img,
+  .web-pet img,
+  .web-news img {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .cv,
+  .we-pet,
+  .web-news {
+    height: 100%;
+  }
+
+  .pro3-last {
+    margin: 0 0;
+  }
+
+  /* FOOTER */
+  .foot-container {
+    /* display: grid; */
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+  }
+}

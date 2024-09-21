@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+  .container {
+    display: block;
+    height: 90%;
+  }
+
+  /* GOALS */
+  .goal1,
+  .goal2,
+  .goal3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+  }
+
+  .goal-content {
+    grid-row: 2/3;
+  }
+
+  .icon {
+    justify-items: center !important;
+    margin-top: 25px;
+  }
+
+  .timeline-project {
+    height: 150%;
+  }
+
+  /* SCOPES */
+  .scopes-container {
+    /* display: block; */
+    margin: 10px 25px;
+    gap: 100px;
+  }
+
+  .scopes-content {
+    display: block;
+  }
+
+  /* TIMELINE */
+  .project {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .proj-content div,
+  .proj-content p {
+    font-size: 25px;
+  }
+
+  .project-title {
+    margin: 0 0;
+  }
+
+  .circle-num {
+    width: 10%;
+    height: 75px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  /* SAME STYLE */
+  .mem,
+  .line {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}
